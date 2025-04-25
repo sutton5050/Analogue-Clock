@@ -112,3 +112,86 @@ html {
     left: 41%;
     letter-spacing: 0.1rem;
 }
+
+.minute-handle-container {
+    width: 40rem;
+    height: 40rem;
+    position:absolute;
+    top: 5rem;
+    left: 5rem;
+    border-radius: 50%;
+}
+
+.minute-handle {
+    position: relative;
+}
+
+.minute-handle .handle {
+    width: .4rem;
+    height: 20rem;
+    background-color: #047291;
+    position: absolute;
+    left: 19.8rem;
+}
+
+.minute-handle .arrow {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #047291;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 19.2rem;
+    top: -1rem;
+}
+
+.hour-handle-container {
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    border-radius: 50%;
+}
+
+.hour-handle {
+    position: relative;
+}
+
+.hour-handle .handle {
+    width: .4rem;
+    height: 15rem;
+    background-color: #047291;
+    position: absolute;
+    left: 14.8rem;
+}
+
+.hour-handle .arrow {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #047291;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 14.2rem;
+    top: -1rem;
+}
+
+.second-handle-container {
+    width: 35rem;
+    height: 35rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 7.5rem;
+    border-radius: 50%;
+}
+
+.second-handle {
+    position: relative;
+}
+
+.second-handle .handle {
+    width: .2rem;
+    height: 17.5rem;
+    background-color: #047291;
+    position: absolute;
+    left: 17.4rem;
+}
